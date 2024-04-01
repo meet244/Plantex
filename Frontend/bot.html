@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+        
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link href="C:/Users/heerm/Algorithms-Visualization/assets2/css/style.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/a658a7b479.js" crossorigin="anonymous"></script>
+<link rel="icon" href="C:\Users\heerm\Algorithms-Visualization\img\logo.jpg"/>
+<link rel="shortcut icon" href=".Frontend/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href=".Frontend/css/style.css">
+</head>
+    <!-- SEO related -->
+
+    <!-- Meta related -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatbot</title>
+
+    <!-- Vendor CSS & style files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans:300|Oxygen|Material+Icons"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+  
+</head>
+
+<body style="background-color: white;">
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-leaf-line nav__logo-icon"></i> Plantex
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faqs" class="nav__link">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+
+
+    <div class="container">
+        <div class="row padded_row">
+            <!-- Right side content -->
+            <div class="col-md-7">
+                <div class="chat_window">
+                    <div class="top_menu">
+                        <div class="title" style="color: yellowgreen;">ChatBot - Gemini</div>
+                    </div>
+                    <!-- Dynamically rendered -->
+                    <ul class="messages"></ul>
+                    <!-- Input -->
+                    <div class="bottom_wrapper">
+                        <input id="msg_input" placeholder="Say Hi to begin chat..." />
+                        <div id="send_button" class="app_button_1">Send</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Left side content -->
+           
+    </div>
+
+    <!-- Vendor script files -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+
+    <!-- Google Generative AI import map -->
+    <script type="importmap">
+        {
+            "imports": {
+                "@google/generative-ai": "https://esm.run/@google/generative-ai"
+            }
+        }
+    </script>
+
+    <!-- Custom scripts -->
+    <script type="module">
+        import { GoogleGenerativeAI } from "@google/generative-ai";
+
+        // Fetch your API_KEY
+        const API_KEY = "AIzaSyD1B-WXBbime7ti7JuA2ta7oQi7JMB9Gbc";//put ur own api key
+
+        // Access your API key
+        const genAI = new GoogleGenerativeAI(API_KEY);
+
+        function getCurrentTimestamp() {
+            return new Date();
+        }
+
+        function renderMessageToScreen(args) {
+            let displayDate = (args.time || getCurrentTimestamp()).toLocaleString('en-IN', {
+                month: 'short',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+            });
+            let messagesContainer = $('.messages');
+            let message = $(`
+                <li class="message ${args.message_side}">
+                    <div class="avatar"></div>
+                    <div class="text_wrapper">
+                        <div class="text">${args.text}</div>
+                        <div class="timestamp">${displayDate}</div>
+                    </div>
+                </li>
+            `);
+            messagesContainer.append(message);
+            setTimeout(function () {
+                message.addClass('appeared');
+            }, 0);
+            messagesContainer.animate({ scrollTop: messagesContainer.prop('scrollHeight') }, 300);
+        }
+
+        async function showUserMessage(message, datetime) {
+            renderMessageToScreen({
+                text: message,
+                time: datetime,
+                message_side: 'right',
+            });
+        }
+
+        async function showBotMessage(message, datetime) {
+            // Convert message to markdown for proper formatting
+            let formattedMessage = `${message}`;
+            renderMessageToScreen({
+                text: formattedMessage,
+                time: datetime,
+                message_side: 'left',
+            });
+        }
+
+        async function sendUserMessage(message) {
+            try {
+                const response = await genAI.getGenerativeModel({ model: "gemini-pro" }).generateContent(message);
+                const botResponse = await response.response.text();
+                await showBotMessage(botResponse);
+            } catch (error) {
+                console.error("Error fetching bot response:", error);
+                await showBotMessage("I'm sorry, I couldn't process your request at the moment.");
+            }
+        }
+
+        $('#send_button').on('click', async function (e) {
+            var userInput = $('#msg_input').val();
+            await showUserMessage(userInput);
+            $('#msg_input').val('');
+            await sendUserMessage(userInput);
+        });
+
+        $(document).ready(function () {
+            $('#msg_input').keydown(function (e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    $('#send_button').click();
+                }
+            });
+        });
+
+        $(window).on('load', function () {
+            showBotMessage('Hello there! Type in a message.');
+        });
+    </script>
+</body>
+
+</html>
