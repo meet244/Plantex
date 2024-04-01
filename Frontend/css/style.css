@@ -420,6 +420,7 @@ the website, in dark theme
 
 .about__description{
   margin-bottom: var(--mb-2);
+  
 }
 
 .about__details{
@@ -456,8 +457,27 @@ the website, in dark theme
   color: #FFF;
 }
 
-.steps__card{
-  background-color: var(--container-color);
+.steps__card1{
+  background-color: white;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/09/29/Organic-trash-icon-Food-waste-Compost-Graphics-39541463-1.png);
+  background-size: cover; /* This property ensures that the background image covers the entire box without distortion */
+  background-position: center;
+  padding: 2.5rem 3rem 2rem 1.5rem;
+  border-radius: 1rem;
+}
+.steps__card2{
+  background-color: white;
+  background-image: url(https://i.pinimg.com/736x/8a/e9/e4/8ae9e497a75a313c9b0a2feccb7b1d0f.jpg);
+  background-size: cover; /* This property ensures that the background image covers the entire box without distortion */
+  background-position: center;
+  padding: 2.5rem 3rem 2rem 1.5rem;
+  border-radius: 1rem;
+}
+.steps__card3{
+  background-color: white;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2039/2039054.png);
+  background-size: cover; /* This property ensures that the background image covers the entire box without distortion */
+  background-position: center;
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1rem;
 }
@@ -476,10 +496,12 @@ the website, in dark theme
 .steps__card-title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+  background-color: white;
 }
 
 .steps__card-description{
   font-size: var(--small-font-size);
+  background-color: white;
 }
 
 .steps__card:hover .steps__card-number{

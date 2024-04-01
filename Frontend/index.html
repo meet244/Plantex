@@ -1,146 +1,172 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Plantex</title>
-    </head>
-    <body>
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">
-                    <i class="ri-leaf-line nav__logo-icon"></i> Plantex
-                </a>
+<html lang="en">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#products" class="nav__link">Products</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#faqs" class="nav__link">FAQs</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contact Us</a>
-                        </li>
-                    </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Plantex</title>
+    <style>
+        .right-image {
+            float: right;
+            margin-left: 20px;
+        }
 
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
+        .right-image-container {
+            position: relative;
+            float: right;
+            margin-left: 20px;
+            top: -10px;
+            /* Adjust this value to move the image up */
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-leaf-line nav__logo-icon"></i> Plantex
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faqs" class="nav__link">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="img/home.png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Urban Solution <br>for <a style="color: yellowgreen;">Green</a> cities.
+                    </h1>
+                    <p class="home__description">
+                        Offering all-in-one plant care kits featuring disease detection tools and vermicompost making
+                        solutions
+                    </p>
+                    <a href="#about" class="button button--flex">
+                        Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
                 </div>
 
-                <div class="nav__btns">
-                    <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-menu-line"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+            </div>
+        </section>
+        <!--==================== ABOUT ====================-->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <img src="img/about.png" alt="" class="about__img" style="height: min-content;">
 
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home" id="home">
-                <div class="home__container container grid">
-                    <img src="img/home.png" alt="" class="home__img">
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Take A picture or <br> Upload the image
+                    </h2>
 
-                    <div class="home__data">
-                        <h1 class="home__title">
-                            Plants will make <br> your life better
-                        </h1>
-                        <p class="home__description">
-                            Create incredible plant design for your offices or apastaments. 
-                            Add fresness to your new ideas.
+
+
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            All image formats are supported.
                         </p>
-                        <a href="#about" class="button button--flex">
-                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Diagnoses blurry images as well.
+                        </p>
                     </div>
-
+                </div>
+            </div>
+        </section>
+        <div class="about section container" id="about">
+            <div class="about__container grid">
+                
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Await for disease diagnosis 
+                    </h2>
                     
-                </div>
-            </section>
-            <!--==================== ABOUT ====================-->
-            <section class="about section container" id="about">
-                <div class="about__container grid">
-                    <img src="img/about.png" alt="" class="about__img" style="height: min-content;">
-
-                    <div class="about__data">
-                        <h2 class="section__title about__title">
-                            Who we really are & <br> why choose us
-                        </h2>
-
-                        <p class="about__description">
-                            We have over 4000+ unbiased reviews and our customers 
-                            trust our plant process and delivery service every time
+                    
+                    
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Answers within seconds.
                         </p>
-
-                        <div class="about__details">
-                            <p class="about__details-description">
-                                <i class="ri-checkbox-fill about__details-icon"></i>
-                                We always deliver on time.
-                            </p>
-                            <p class="about__details-description">
-                                <i class="ri-checkbox-fill about__details-icon"></i>
-                                We give you guides to protect and care for your plants.
-                            </p>
-                            <p class="about__details-description">
-                                <i class="ri-checkbox-fill about__details-icon"></i>
-                                We always come over for a check-up after sale.
-                            </p>
-                            <p class="about__details-description">
-                                <i class="ri-checkbox-fill about__details-icon"></i>
-                                100% money back guaranteed.
-                            </p>
-                        </div>
-
-                        <a href="#" class="button--link button--flex">
-                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            99.2 % accuracy.
+                        </p>
                     </div>
                 </div>
-            </section>
+                <img src="img/aboutt.png" alt="" class="about__img" style="height: min-content;">
+            </div>
 
             <!--==================== STEPS ====================-->
             <section class="steps section container">
                 <div class="steps__bg">
                     <h2 class="section__title-center steps__title">
-                        Steps to start your <br> plants off right
+                        Steps to start your <br> Vermicomposting right
                     </h2>
 
                     <div class="steps__container grid">
-                        <div class="steps__card">
+                        <div class="steps__card1">
                             <div class="steps__card-number">01</div>
-                            <h3 class="steps__card-title">Choose Plant</h3>
+                            <h3 class="steps__card-title">Collect your Organic Waste</h3>
                             <p class="steps__card-description">
-                                We have several varieties plants you can choose from.
+                                It can be vegetable peels,leftovers,stems,leaves etc.
                             </p>
+
                         </div>
 
-                        <div class="steps__card">
+                        <div class="steps__card2">
                             <div class="steps__card-number">02</div>
-                            <h3 class="steps__card-title">Place an order</h3>
+                            <h3 class="steps__card-title">Visit out Vermicompost branch near you</h3>
+                            <img src="Frontend\img\address.png" alt="">
                             <p class="steps__card-description">
-                                Once your order is set, we move to the next step which is the shipping.
+                                Bring your organic matter at the store.
                             </p>
                         </div>
 
-                        <div class="steps__card">
+                        <div class="steps__card3">
                             <div class="steps__card-number">03</div>
-                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <h3 class="steps__card-title">Collect the Vermicompost equivalent to your waste</h3>
                             <p class="steps__card-description">
-                                Our delivery process is easy, you receive the plant direct to your door.
+                                Keep collecting and recycling 
                             </p>
                         </div>
                     </div>
@@ -153,10 +179,6 @@
                     Check out our <br> products
                 </h2>
 
-                <p class="product__description">
-                    Here are some selected plants from our showroom, all are in excellent 
-                    shape and has a long life span. Buy and enjoy best quality.
-                </p>
 
                 <div class="product__container grid">
                     <article class="product__card">
@@ -257,7 +279,9 @@
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Look for symptoms such as spots, wilting, discoloration, or abnormal growth patterns on leaves, stems, or fruit. Just scan and upload image to us and we'll do our best to help you.
+                                    Look for symptoms such as spots, wilting, discoloration, or abnormal growth patterns
+                                    on leaves, stems, or fruit. Just scan and upload image to us and we'll do our best
+                                    to help you.
                                 </p>
                             </div>
                         </div>
@@ -272,7 +296,8 @@
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Common diseases include powdery mildew, blight, and root rot, often caused by fungi, bacteria, or environmental stressors.
+                                    Common diseases include powdery mildew, blight, and root rot, often caused by fungi,
+                                    bacteria, or environmental stressors.
                                 </p>
                             </div>
                         </div>
@@ -287,7 +312,8 @@
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Practice good garden hygiene, including proper watering, spacing, and sanitation, and consider using disease-resistant varieties.
+                                    Practice good garden hygiene, including proper watering, spacing, and sanitation,
+                                    and consider using disease-resistant varieties.
                                 </p>
                             </div>
                         </div>
@@ -304,7 +330,8 @@
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Options include neem oil, copper fungicides, and beneficial insects like ladybugs or predatory mites.
+                                    Options include neem oil, copper fungicides, and beneficial insects like ladybugs or
+                                    predatory mites.
 
                                 </p>
                             </div>
@@ -320,7 +347,8 @@
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Use targeted treatments, such as insecticidal soaps or horticultural oils, and avoid broad-spectrum pesticides.
+                                    Use targeted treatments, such as insecticidal soaps or horticultural oils, and avoid
+                                    broad-spectrum pesticides.
                                 </p>
                             </div>
                         </div>
@@ -335,7 +363,8 @@
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    If symptoms persist despite home treatments, or if you're unsure about the diagnosis, consult with a local extension service or plant health specialist.
+                                    If symptoms persist despite home treatments, or if you're unsure about the
+                                    diagnosis, consult with a local extension service or plant health specialist.
                                 </p>
                             </div>
                         </div>
@@ -344,7 +373,7 @@
             </section>
 
             <!--==================== CONTACT ====================-->
-            <section class="contact section container" id="contact">                
+            <section class="contact section container" id="contact">
                 <div class="contact__container grid">
                     <div class="contact__box">
                         <h2 class="section__title">
@@ -383,7 +412,7 @@
                             </div>
 
                             <div class="contact__content contact__area">
-                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>
                                 <label for="" class="contact__label">Message</label>
                             </div>
                         </div>
@@ -395,86 +424,87 @@
                     </form>
                 </div>
             </section>
-        </main>
+    </main>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content">
-                    <a href="#" class="footer__logo">
-                        <i class="ri-leaf-line footer__logo-icon"></i> Plantex
-                    </a>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class="ri-leaf-line footer__logo-icon"></i> Plantex
+                </a>
 
-                    <h3 class="footer__title">
-                        Subscribe to our newsletter <br> to stay update
-                    </h3>
+                <h3 class="footer__title">
+                    Subscribe to our newsletter <br> to stay update
+                </h3>
 
-                    <div class="footer__subscribe">
-                        <input type="email" placeholder="Enter your email" class="footer__input">
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
 
-                        <button class="button button--flex footer__button">
-                            Subscribe
-                            <i class="ri-arrow-right-up-line button__icon"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Our Address</h3>
-
-                    <ul class="footer__data">
-                        <li class="footer__information">D-502, Rizvi Nagar, Milan Subway & SV Road,</li>
-                        <li class="footer__information">Santa Cruz (W), Mumbai,</li>
-                        <li class="footer__information">Maharashtra 400054, India</li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Contact Us</h3>
-
-                    <ul class="footer__data">
-                        <li class="footer__information">+9876543210</li>
-                        
-                        <div class="footer__social">
-                            <a href="https://www.facebook.com/" class="footer__social-link">
-                                <i class="ri-facebook-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/" class="footer__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-                            <a href="https://twitter.com/" class="footer__social-link">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                        </div>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">
-                        We accept all credit cards
-                    </h3>
-
-                    <div class="footer__cards">
-                        <img src="img/card1.png" alt="" class="footer__card">
-                        <img src="img/card2.png" alt="" class="footer__card">
-                        <img src="img/card3.png" alt="" class="footer__card">
-                        <img src="img/card4.png" alt="" class="footer__card">
-                    </div>
+                    <button class="button button--flex footer__button">
+                        Subscribe
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
-        </footer>
-        
-        <!--=============== SCROLL UP ===============-->
-        <a href="#" class="scrollup" id="scroll-up"> 
-            <i class="ri-arrow-up-fill scrollup__icon"></i>
-        </a>
+            <div class="footer__content">
+                <h3 class="footer__title">Our Address</h3>
 
-        <!--=============== SCROLL REVEAL ===============-->
-        <script src="js/scroll.min.js"></script>
-        
-        <!--=============== MAIN JS ===============-->
-        <script src="js/main.js"></script>
-    </body>
+                <ul class="footer__data">
+                    <li class="footer__information">D-502, Rizvi Nagar, Milan Subway & SV Road,</li>
+                    <li class="footer__information">Santa Cruz (W), Mumbai,</li>
+                    <li class="footer__information">Maharashtra 400054, India</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">+9876543210</li>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    We accept all credit cards
+                </h3>
+
+                <div class="footer__cards">
+                    <img src="img/card1.png" alt="" class="footer__card">
+                    <img src="img/card2.png" alt="" class="footer__card">
+                    <img src="img/card3.png" alt="" class="footer__card">
+                    <img src="img/card4.png" alt="" class="footer__card">
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Plantex. All rigths reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="js/scroll.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
