@@ -136,6 +136,20 @@
                 <img src="img/aboutt.png" alt="" class="about__img" style="height: min-content;">
             </div>
 
+            <!-- Upload Image  -->
+            <label for="images" class="drop-container" id="dropcontainer">
+              <span class="drop-title">Drop Plant Image here</span>
+              or
+              <input class="drop-container-input" type="file" id="images" accept="image/*" required>
+              <div class="drop-container-load">
+                <div class="drop-container-load-fill"></div>
+              </div>              
+            </label>
+            <div id="drop-container-done">
+              <img style="width: 10rem;" src="https://i.gifer.com/ZdPH.gif" alt="">
+            </div>
+            
+
             <!--==================== STEPS ====================-->
             <section class="steps section container">
                 <div class="steps__bg">
@@ -505,6 +519,7 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="js/main.js"></script>
-</body>
+    <script src="js/dropdownImage.js"></script>
+  </body>
 
 </html>
