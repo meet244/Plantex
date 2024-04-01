@@ -21,6 +21,32 @@
             top: -10px;
             /* Adjust this value to move the image up */
         }
+        <style>
+    .container {
+        position: relative;
+        width: 300px; /* Adjust width as needed */
+    }
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        color: white;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0; /* Hidden by default */
+        transition: opacity 0.3s ease;
+    }
+    .container:hover .text {
+        opacity: 1; /* Show text on hover */
+    }
+</style>
     </style>
 </head>
 
@@ -48,6 +74,9 @@
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">Contact Us</a>
                     </li>
+                    <li class="nav__item">
+                        <a href="bot.html" class="nav__link" target="_blank">Chatbot</a>
+                    </li>
                 </ul>
 
                 <div class="nav__close" id="nav-close">
@@ -73,7 +102,7 @@
 
                 <div class="home__data">
                     <h1 class="home__title">
-                        Urban Solution <br>for <a style="color: yellowgreen;">Green</a> cities.
+                        Urban Solution <br>for <a style="color:hsl(var(--hue), 24%, 32%);">Green</a> cities.
                     </h1>
                     <p class="home__description">
                         Offering all-in-one plant care kits featuring disease detection tools and vermicompost making
