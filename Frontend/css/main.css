@@ -6,23 +6,18 @@
 
 body {
 	background-color:white;
+	color: white;
 	font-family: 'Calibri', 'Roboto', sans-serif;
 	align-items: center;
+	padding-right: %;
+	padding-left: 25%;
+	padding-top: 2%;
+	border-color: rgba(62,101,83,255);
+    border: 5cm;
 }
 
 
-	.show {
-		 display: block;
-		 color: white;
-		 font-size: 18px;
-		 padding: 0 20px;
-		 line-height: 70px;
-		 cursor: pointer;
-	}
-
-	.show:hover {
-		 color: cyan;
-	}
+	
 
 	.icon {
 		 display: block;
@@ -38,7 +33,7 @@ body {
 	span.cancel:before {
 		 content: '\f00d';
 	}
-}
+
 .row.padded_row,
 .row.padded_row > div {
 	padding-top: 20px;
@@ -50,21 +45,20 @@ body {
 
 .chat_window {
 	border-radius: 10px;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-	background-color: #f8f8f8;
+	background-color: white;
 	overflow: hidden;
 	align-items: center;
+	border-color: rgba(62,101,83,255);
+    border: 5cm;
 }
 
 .top_menu {
 	background-color: #fff;
 	padding: 13px 0px;
-	box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
 }
 
 .top_menu .title {
 	text-align: center;
-	color: #337ab7;
 	font-size: 20px;
 }
 
@@ -143,33 +137,33 @@ body {
 
 .messages .message.left .avatar {
 	float: left;
-	background: url('./img/bot.jpg');
+	background-image: url(/Frontend/img/bot.jpg);
 }
 
 .messages .message.left .text_wrapper {
-	background-color:yellowgreen;
+	background-color:rgba(62,101,83,255);
 	margin-left: 20px;
 }
 
 .messages .message.left .text_wrapper::after,
 .messages .message.left .text_wrapper::before {
 	right: 100%;
-	border-right-color:yellowgreen;
+	border-right-color:rgba(62,101,83,255);
 }
 
 .messages .message.left .timestamp {
-	color: #b0742f;
+	color: white;
 }
 
 /* user message */
 
 .messages .message.right .avatar {
 	float: right;
-	background: url('./img/guy.jpg');
+	background: url('/Frontend/img/guy.jpg');
 }
 
 .messages .message.right .text_wrapper {
-	background-color: #b0d4f3;
+	background-color: rgba(62,101,83,255);
 	margin-right: 20px;
 	float: right;
 }
@@ -177,11 +171,11 @@ body {
 .messages .message.right .text_wrapper::after,
 .messages .message.right .text_wrapper::before {
 	left: 100%;
-	border-left-color: #b0d4f3;
+	border-left-color: rgba(62,101,83,255);
 }
 
 .messages .message.right .timestamp {
-	color: #1a5770;
+	color: white;
 }
 
 /* text inpur from user */
@@ -194,6 +188,7 @@ body {
 }
 
 .bottom_wrapper #msg_input {
+	color:rgba(62,101,83,255);
 	flex-grow: 1;
 	outline-width: 0;
 	padding: 12px;
@@ -204,7 +199,7 @@ body {
 
 .app_button_1 {
 	width: 140px;
-	background-color: #a3d063;
+	background-color: rgba(62,101,83,255);
 	border-radius: 50px;
 	cursor: pointer;
 	padding: 12px;
