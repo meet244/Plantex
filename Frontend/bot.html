@@ -131,6 +131,7 @@
 
         async function sendUserMessage(message) {
             try {
+                let pretext = `Act as Ai chatbot of Plantex and help users to seek knowledge and answers related to their questions. Answer the following query properly, and remember you are Plantex AI chatbot. \nFollwoing is the query - ${message}`
                 const response = await genAI.getGenerativeModel({ model: "gemini-pro" }).generateContent(message);
                 const botResponse = await response.response.text();
                 await showBotMessage(botResponse);
