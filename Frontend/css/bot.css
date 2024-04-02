@@ -8,7 +8,6 @@ body {
 	color: white;
 	font-family: 'Calibri', 'Roboto', sans-serif;
 	align-items: center;
-	/* padding-right: %; */
 	padding-left: 25%;
 	padding-top: 2%;
 	border-color: rgba(62, 101, 83, 255);
@@ -133,7 +132,7 @@ span.cancel:before {
 
 .messages .message.left .avatar {
 	float: left;
-	background-image: url("../img/bot.jpg");
+	background-image: url('../img/bot.jpg');
 }
 
 .messages .message.left .text_wrapper {
@@ -155,7 +154,7 @@ span.cancel:before {
 
 .messages .message.right .avatar {
 	float: right;
-	background: url("../img/guy.jpg");
+	background: url('../img/guy.jpg');
 }
 
 .messages .message.right .text_wrapper {

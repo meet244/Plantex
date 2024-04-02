@@ -72,13 +72,14 @@
             }
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
     <!-- Custom scripts -->
     <script type="module">
         import { GoogleGenerativeAI } from "@google/generative-ai";
 
         // Fetch your API_KEY
-        const API_KEY = "###";//put ur own api key
+        const API_KEY = "AIzaSyD1B-WXBbime7ti7JuA2ta7oQi7JMB9Gbc";//put ur own api key
 
         // Access your API key
         const genAI = new GoogleGenerativeAI(API_KEY);
@@ -132,7 +133,7 @@
         async function sendUserMessage(message) {
             try {
                 let pretext = `Act as Ai chatbot of Plantex and help users to seek knowledge and answers related to their questions. Answer the following query properly, and remember you are Plantex AI chatbot. \nFollwoing is the query - ${message}`
-                const response = await genAI.getGenerativeModel({ model: "gemini-pro" }).generateContent(message);
+                const response = await genAI.getGenerativeModel({ model: "gemini-pro" }).generateContent(pretext);
                 const botResponse = await response.response.text();
                 await showBotMessage(botResponse);
             } catch (error) {
@@ -158,7 +159,7 @@
         });
 
         $(window).on('load', function () {
-            showBotMessage('Hello there! Type in a message.');
+            showBotMessage("Hello! 👋 I'm Plantex, your friendly plant care assistant. 🌱 I'm here to help you with all your plant-related questions. Just ask me anything, and I'll do my best to provide you with the information you need. 🌿");
         });
     </script>
 </body>
