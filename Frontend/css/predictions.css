@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #f1f1f1;
+}
+/* Container & Grid */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.col-lg-8 {
+	flex: 0 0 auto;
+	width: 66.66667%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/* Stack for vertical spacing */
+.vstack {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+/* Card styling */
+.card {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+	padding: 16px;
+	background: #f8f9fa;
+	border-bottom: 1px solid #eee;
+}
+
+.card-title {
+	margin: 0;
+	font-size: 1.25rem;
+	color: #333;
+}
+
+/* Prediction Image */
+#prediction-image {
+	height: 200px; /* Adjust based on your preference */
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+/* Utilities */
+.h-200px {
+	height: 200px;
+}
+
+.rounded-top {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.border-0 {
+	border: none !important;
+}
+
+.pb-0 {
+	padding-bottom: 0 !important;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+
+/* You might not need this if using Bootstrap or a similar framework */
+.gap-4 > * {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.gap-4 > :last-child {
+	margin-bottom: 0;
+}

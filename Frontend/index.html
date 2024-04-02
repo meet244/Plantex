@@ -6,27 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Plantex</title>
     <style>
-       
-   
-    .text {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-        color: white;
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-        opacity: 0; /* Hidden by default */
-        transition: opacity 0.3s ease;
-    }
-    .container:hover .text {
-        opacity: 1; /* Show text on hover */
-    }
-</style>
+        .text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .container:hover .text {
+            opacity: 1;
+        }
+    </style>
     </style>
 </head>
 
@@ -123,14 +122,14 @@
         </section>
         <div class="about section container" id="about">
             <div class="about__container grid">
-                
+
                 <div class="about__data">
                     <h2 class="section__title about__title">
-                        Await for disease diagnosis 
+                        Await for disease diagnosis
                     </h2>
-                    
-                    
-                    
+
+
+
                     <div class="about__details">
                         <p class="about__details-description">
                             <i class="ri-checkbox-fill about__details-icon"></i>
@@ -145,19 +144,23 @@
                 <img src="img/aboutt.png" alt="" class="about__img" style="height: min-content;">
             </div>
 
-            <!-- Upload Image  -->
+            <!--=================== Upload Image  ===========================-->
             <label for="images" class="drop-container" id="dropcontainer">
-              <span class="drop-title">Drop Plant Image here</span>
-              or
-              <input class="drop-container-input" type="file" id="images" accept="image/*" required>
-              <div class="drop-container-load">
-                <div class="drop-container-load-fill"></div>
-              </div>              
+                <span class="drop-title">Drop Plant Image here</span>
+                or
+                <input class="drop-container-input" type="file" id="images" accept="image/*" required>
+                <div class="drop-container-load">
+                    <div class="drop-container-load-fill"></div>
+                </div>
             </label>
             <div id="drop-container-done">
-              <img style="width: 10rem;" src="https://i.gifer.com/ZdPH.gif" alt="">
+                <!-- <img style="width: 10rem;" src="https://i.gifer.com/ZdPH.gif" alt=""> -->
+                <div id="drop-container-done-title">
+                    <h2>Blueberry Juice is the disease that Your Plant is facing 😢</h2>
+                    <a href="">To Know About Causes, Effect and Treatments <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
-            
+
 
             <!--==================== STEPS ====================-->
             <section class="steps section container">
@@ -169,32 +172,36 @@
                     <div class="steps__container grid">
                         <div class="steps__card steps__card1">
                             <div class="overlay">
-                                <div class="text">Collect your Organic Waste☘️<br>It can be vegetable peels, leftovers, stems, leaves etc🗑️</div>
+                                <div class="text">Collect your Organic Waste☘️<br>It can be vegetable peels, leftovers,
+                                    stems, leaves etc🗑️</div>
                             </div>
                             <div class="steps__card-number">01</div>
-                            
+
                         </div>
-                    
+
                         <div class="steps__card steps__card2">
-                            <a href="https://www.google.com/maps/search/vermicompost+near+me/@19.0427825,72.8978114,11z/data=!3m1!4b1?entry=ttu" target="_blank">
+                            <a href="https://www.google.com/maps/search/vermicompost+near+me/@19.0427825,72.8978114,11z/data=!3m1!4b1?entry=ttu"
+                                target="_blank">
                                 <div class="overlay">
                                     <br><br><br><br><br>
-                                    <div class="text">📍click to view our stores<br>Bring your organic matter at the vermi store🏪</div>
+                                    <div class="text">📍click to view our stores<br>Bring your organic matter at the
+                                        vermi store🏪</div>
                                 </div>
                                 <div class="steps__card-number">02</div>
                             </a>
                         </div>
-                        
-                    
+
+
                         <div class="steps__card steps__card3">
                             <div class="overlay">
-                                <div class="text">Collect the Vermicompost equivalent to your waste🌱<br>Keep collecting and recycling♻️</div>
+                                <div class="text">Collect the Vermicompost equivalent to your waste🌱<br>Keep collecting
+                                    and recycling♻️</div>
                             </div>
                             <div class="steps__card-number">03</div>
-                            
+
                         </div>
                     </div>
-                    
+
                 </div>
             </section>
 
@@ -421,21 +428,22 @@
                             </div>
                         </div>
                     </div>
-            
+
                     <form action="" class="contact__form" id="contactForm">
                         <div class="contact__inputs">
                             <div class="contact__content">
                                 <input type="email" placeholder=" " class="contact__input" id="email" required>
                                 <label for="email" class="contact__label">Email</label>
                             </div>
-            
+
                             <div class="contact__content">
                                 <input type="text" placeholder=" " class="contact__input" id="subject" required>
                                 <label for="subject" class="contact__label">Subject</label>
                             </div>
-            
+
                             <div class="contact__content contact__area">
-                                <textarea name="message" placeholder=" " class="contact__input" id="message" required></textarea>
+                                <textarea name="message" placeholder=" " class="contact__input" id="message"
+                                    required></textarea>
                                 <label for="message" class="contact__label">Message</label>
                             </div>
                         </div>
@@ -446,34 +454,23 @@
                     </form>
                 </div>
             </section>
-            
+
             <script>
-                // JavaScript for form submission and validation
-                document.getElementById('contactForm').addEventListener('submit', function(event) {
+                document.getElementById('contactForm').addEventListener('submit', function (event) {
                     event.preventDefault(); // Prevent the default form submission
-            
-                    // Fetch form inputs
                     var email = document.getElementById('email').value.trim();
                     var subject = document.getElementById('subject').value.trim();
                     var message = document.getElementById('message').value.trim();
-            
-                    // Check if any field is empty
                     if (email === '' || subject === '' || message === '') {
                         alert('Please fill in all fields.');
                         return; // Stop further execution
                     }
-            
-                    // If all fields are filled, show success message
                     alert('Message sent successfully!');
-                    
-                    // Reset the form
                     document.getElementById('contactForm').reset();
                 });
             </script>
-            
-    </main>
 
-    <!--==================== FOOTER ====================-->
+    </main>
     <footer class="footer section">
         <div class="footer__container container grid">
             <div class="footer__content">
@@ -497,19 +494,16 @@
 
             <div class="footer__content">
                 <h3 class="footer__title">Our Vermicompost Stores</h3>
-                
-    <!-- Embedded Google Maps -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906410.1213564673!2d71.5313197685773!3d21.054391353207684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c138e5cb1579%3A0x6339ec96e327c9a!2sPlantex%20Agro%20Industries%20Private%20Limited!5e0!3m2!1sen!2sin!4v1712033679334!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-
-                
+                <!-- Embedded Google Maps -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906410.1213564673!2d71.5313197685773!3d21.054391353207684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c138e5cb1579%3A0x6339ec96e327c9a!2sPlantex%20Agro%20Industries%20Private%20Limited!5e0!3m2!1sen!2sin!4v1712033679334!5m2!1sen!2sin"
+                    width="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
             <div class="footer__content">
                 <h3 class="footer__title">Contact Us</h3>
-
                 <ul class="footer__data">
                     <li class="footer__information">+9876543210</li>
-
                     <div class="footer__social">
                         <a href="https://www.facebook.com/" class="footer__social-link">
                             <i class="ri-facebook-fill"></i>
@@ -523,25 +517,18 @@
                     </div>
                 </ul>
             </div>
-
-           
-            </div>
+        </div>
         </div>
 
         <p class="footer__copy">&#169; Plantex. All rigths reserved</p>
     </footer>
-
-    <!--=============== SCROLL UP ===============-->
     <a href="#" class="scrollup" id="scroll-up">
         <i class="ri-arrow-up-fill scrollup__icon"></i>
     </a>
-
-    <!--=============== SCROLL REVEAL ===============-->
+    <!-- Js Files  -->
     <script src="js/scroll.min.js"></script>
-
-    <!--=============== MAIN JS ===============-->
     <script src="js/main.js"></script>
     <script src="js/dropdownImage.js"></script>
-  </body>
+</body>
 
 </html>
