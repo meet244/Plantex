@@ -1,38 +1,34 @@
 * {
 	box-sizing: border-box;
 	align-items: center;
-
 }
 
 body {
-	background-color:white;
+	background-color: white;
 	color: white;
 	font-family: 'Calibri', 'Roboto', sans-serif;
 	align-items: center;
-	padding-right: %;
+	/* padding-right: %; */
 	padding-left: 25%;
 	padding-top: 2%;
-	border-color: rgba(62,101,83,255);
-    border: 5cm;
+	border-color: rgba(62, 101, 83, 255);
+	border: 5cm;
 }
 
+.icon {
+	display: block;
+	color: white;
+	position: absolute;
+	top: 0;
+	right: 40px;
+	line-height: 70px;
+	cursor: pointer;
+	font-size: 25px;
+}
 
-	
-
-	.icon {
-		 display: block;
-		 color: white;
-		 position: absolute;
-		 top: 0;
-		 right: 40px;
-		 line-height: 70px;
-		 cursor: pointer;
-		 font-size: 25px;
-	}
-
-	span.cancel:before {
-		 content: '\f00d';
-	}
+span.cancel:before {
+	content: '\f00d';
+}
 
 .row.padded_row,
 .row.padded_row > div {
@@ -48,8 +44,8 @@ body {
 	background-color: white;
 	overflow: hidden;
 	align-items: center;
-	border-color: rgba(62,101,83,255);
-    border: 5cm;
+	border-color: rgba(62, 101, 83, 255);
+	border: 5cm;
 }
 
 .top_menu {
@@ -137,18 +133,18 @@ body {
 
 .messages .message.left .avatar {
 	float: left;
-	background-image: url(/Frontend/img/bot.jpg);
+	background-image: url("../img/bot.jpg");
 }
 
 .messages .message.left .text_wrapper {
-	background-color:rgba(62,101,83,255);
+	background-color: rgba(62, 101, 83, 255);
 	margin-left: 20px;
 }
 
 .messages .message.left .text_wrapper::after,
 .messages .message.left .text_wrapper::before {
 	right: 100%;
-	border-right-color:rgba(62,101,83,255);
+	border-right-color: rgba(62, 101, 83, 255);
 }
 
 .messages .message.left .timestamp {
@@ -159,11 +155,11 @@ body {
 
 .messages .message.right .avatar {
 	float: right;
-	background: url('/Frontend/img/guy.jpg');
+	background: url("../img/guy.jpg");
 }
 
 .messages .message.right .text_wrapper {
-	background-color: rgba(62,101,83,255);
+	background-color: rgba(62, 101, 83, 255);
 	margin-right: 20px;
 	float: right;
 }
@@ -171,7 +167,7 @@ body {
 .messages .message.right .text_wrapper::after,
 .messages .message.right .text_wrapper::before {
 	left: 100%;
-	border-left-color: rgba(62,101,83,255);
+	border-left-color: rgba(62, 101, 83, 255);
 }
 
 .messages .message.right .timestamp {
@@ -188,7 +184,7 @@ body {
 }
 
 .bottom_wrapper #msg_input {
-	color:rgba(62,101,83,255);
+	color: rgba(62, 101, 83, 255);
 	flex-grow: 1;
 	outline-width: 0;
 	padding: 12px;
@@ -199,7 +195,7 @@ body {
 
 .app_button_1 {
 	width: 140px;
-	background-color: rgba(62,101,83,255);
+	background-color: rgba(62, 101, 83, 255);
 	border-radius: 50px;
 	cursor: pointer;
 	padding: 12px;
