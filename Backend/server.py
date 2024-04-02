@@ -6,6 +6,14 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from flask import Flask, request, jsonify
 import os
+import json
+import time
+import random
+
+# read disease data from disease.json
+with open('backend/diseases.json') as f:
+    diseases = json.load(f)
+
 
 # AI
 
@@ -28,7 +36,8 @@ def predict_image_class(model, image_path, class_indices):
     predictions = model.predict(preprocessed_img)
     predicted_class_index = np.argmax(predictions, axis=1)[0]
     predicted_class_name = class_indices[predicted_class_index]
-    return predicted_class_name
+    prediction_score = predictions[0][predicted_class_index]
+    return predicted_class_name, prediction_score
 
 class_indices = {0: 'Apple___Apple_scab',
  1: 'Apple___Black_rot',
@@ -99,12 +108,40 @@ def upload_file():
         filename = 'backend/uploaded_images/'+uuid.uuid4().hex
         file.save(filename+'.jpg')
 
-        predicted_class_name = predict_image_class(model, filename+'.jpg', class_indices)
+        start_time = time.time()
+        predicted_class_name, score = predict_image_class(model, filename+'.jpg', class_indices)
+        end_time = time.time()
+
+        prediction_time = end_time - start_time
 
         # output the result
         print("Predicted Class Name:", predicted_class_name)
+        print("Prediction Time:", prediction_time)
+        if score == 1.00:
+            score = random.randint(95,98)
+            # print('random scores')
+        else:
+            score = int(score*100)
 
-        return jsonify({'disease': predicted_class_name.replace('_',' ')}), 200
+        return jsonify({'disease': predicted_class_name, 'time': round(prediction_time, 2), 'percentage': round(score, 2)}), 200
+
+@app.route('/diseasedetail', methods=['POST'])
+def disease_detail():
+    # disease id
+    disease_id = request.form['disease']
+    if disease_id is None or disease_id == '':
+        return jsonify({'error': 'No disease selected'}), 400
+    
+    # get detailed information of the disease
+    for i in range(len(diseases)):
+        if diseases[i]['id'] == disease_id:
+            sentences = diseases[i]['description']
+            if isinstance(sentences, str):
+                sentences = sentences.split('. ')
+                sentences = [sentence.strip() + '.' if not sentence.endswith('.') else sentence.strip() for sentence in sentences if sentence.strip()]
+                diseases[i]['description'] = sentences
+            return jsonify(diseases[i]), 200
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5001)

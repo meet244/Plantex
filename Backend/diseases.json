@@ -1,0 +1,235 @@
+[
+    {
+        "id":"Apple___Apple_scab",
+        "name": "Apple Scab",
+        "link": "https://www.apsnet.org/edcenter/disandpath/fungalasco/pdlessons/Article%20Images/AppleScab03.jpg",
+        "description": "Apple scab, caused by the fungus Venturia inaequalis, is one of the most common and economically important diseases affecting apple trees worldwide. It thrives in temperate and humid climates, with symptoms typically appearing in spring and early summer. Initial signs include olive-green to black lesions on leaves, which may later develop a velvety texture. These lesions can coalesce, causing defoliation and reducing the tree's ability to photosynthesize effectively. Fruit may also develop lesions, becoming deformed and less marketable. To manage apple scab, growers often implement a combination of cultural practices such as pruning to improve air circulation, sanitation to remove fallen leaves and infected fruit, and fungicide applications during critical growth stages."
+    },
+    {
+        "id" : "Apple___Black_rot",
+        "name" : "Apple Black rot",
+        "link": "https://www.ontario.ca/files/2022-07/omafra-black-rot-figure-1-en-400x308-2022-07-21-v1.jpg",
+        "description": "Black rot, caused by the fungus Botryosphaeria obtusa, poses a significant threat to apple orchards, particularly in regions with warm, wet conditions during the growing season. Infected fruit initially displays small, circular, brown lesions, which gradually enlarge and become sunken, often with concentric rings and black fungal structures in the center. As the disease progresses, affected fruit may shrivel and become mummified, remaining attached to the tree or dropping prematurely. Black rot can also affect twigs and branches, leading to cankers and dieback. Control measures include regular orchard sanitation to remove diseased fruit and pruning to remove infected branches, along with fungicide applications timed to protect vulnerable growth stages."
+    },
+    {
+        "id":"Apple___Cedar_apple_rust",
+        "name": "Apple Cedar Apple Rust",
+        "link": "https://cdn.britannica.com/61/185161-050-726ED959/spots-Orange-cedar-apple-rust-disease-apple-leaf.jpg",
+        "description":"Cedar apple rust is a complex fungal disease caused by the pathogen Gymnosporangium juniperi-virginianae, which requires both apple and cedar trees to complete its life cycle. The disease typically manifests as yellow-orange lesions on the upper surface of apple leaves, which produce spore-bearing structures known as telia during wet weather conditions. These lesions can cause premature defoliation, weakening the tree and reducing fruit quality and yield. Cedar trees act as alternate hosts, developing distinct gall-like structures that release spores capable of infecting nearby apple trees. Control strategies involve removing nearby cedar trees, applying fungicides to protect susceptible apple growth, and selecting resistant apple cultivars where possible." 
+
+    },
+    {
+        "id":"Apple___healthy",
+        "name": "Apple Healthy",
+        "link": "https://assets.clevelandclinic.org/transform/cd71f4bd-81d4-45d8-a450-74df78e4477a/Apples-184940975-770x533-1_jpg",
+        "description":"This category represents the optimal state of health for apple trees, characterized by vigorous growth, vibrant green foliage, and high-quality fruit production. Healthy apple trees exhibit no signs of disease or pest infestation, allowing them to reach their full genetic potential in terms of yield and fruit quality. Achieving and maintaining tree health involves implementing appropriate cultural practices, such as proper irrigation, fertilization, pruning, and pest management, tailored to the specific needs of the apple cultivar and local growing conditions"
+
+    },
+    {
+        "id":"Blueberry___healthy",
+        "name": "Blueberry healthy",
+        "link": "https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2022/05/06172801/14-2.jpg",
+        "description":"healthy blueberry plants exhibit robust growth, with dark green foliage, vigorous shoot development, and abundant flower and fruit production. They are free from symptoms of disease, such as leaf spots, blights, or wilting, and are not infested by pests such as mites, aphids, or caterpillars. Achieving and maintaining plant health involves providing optimal growing conditions, including well-drained acidic soil, adequate moisture, and appropriate fertilization, as well as monitoring for signs of pests and diseases and implementing timely control measures as needed."
+    },
+    {
+        "id":"Cherry_(including_sour)___Powdery_mildew",
+        "name": "Cherry (including sour) Powdery Mildew",
+        "link": "https://plantvillage-production-new.s3.amazonaws.com/image/1040/file/default-81fd26d8dc13b99815e6b9fa4f7582a7.jpg",
+        "description":"Powdery mildew, caused by various fungal species belonging to the Podosphaera genus, is a common disease affecting cherry trees, including both sweet and sour varieties. It typically manifests as white, powdery growth on the surfaces of leaves, shoots, and fruit, often appearing in spring and early summer. Infected leaves may become distorted or develop necrotic spots, and severe infections can lead to defoliation, weakening the tree and reducing fruit production. Powdery mildew thrives in warm, dry conditions with high humidity, making cherry orchards particularly susceptible during periods of rapid growth. Control measures include cultural practices such as pruning to improve air circulation, selecting resistant cultivars, and applying fungicides preventively or curatively as needed throughout the growing season."
+    },
+    {
+        "id":"Cherry_(including_sour)___healthy",
+        "name": "Cherry (including sour) Healthy",
+        "link": "https://img.livestrong.com/-/clsd/getty/0666c9d6764e4500af4958b92a0358a2.jpg",
+        "description":"Optimal cherry tree health is characterized by robust growth, abundant foliage, and prolific flower and fruit production. Healthy cherry trees typically exhibit vibrant green leaves without any signs of discoloration, spots, or deformities. Their branches are sturdy and well-formed, supporting the weight of the fruit clusters without drooping excessively. Additionally, healthy cherry trees are resistant to common pests and diseases, ensuring uninterrupted growth and high-quality fruit yield. Achieving and maintaining cherry tree health requires adequate soil nutrition, proper irrigation, pruning to promote airflow and sunlight penetration, and timely pest and disease management measures."
+    },
+    {
+        "id":"Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+        "name": "Cercospora Leaf Spot and Gray Leaf Spot",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/1/12/Gray_leaf_spot_Cercospora_zeae-maydis_5465607.png",
+        "description":"Cercospora leaf spot and gray leaf spot are fungal diseases commonly affecting corn (maize) plants, caused by the pathogens Cercospora zeae-maydis and Cercospora zeina, respectively. Symptoms include small, oval to elongated lesions on leaves, which may initially appear water-soaked and later develop into tan to brown spots with distinct margins. In severe cases, the lesions can coalesce, leading to extensive leaf blighting and reduced photosynthetic capacity. Gray leaf spot, caused by Cercospora zeina, typically manifests as rectangular lesions with parallel sides and gray centers, often surrounded by yellow halos. Both diseases can significantly impact yield and grain quality if left unmanaged. Control measures include crop rotation, tillage practices to bury infected residue, planting resistant hybrids, and fungicide applications during critical growth stages."
+    },
+    {
+        "id":"Corn_(maize)__Common_rust",
+        "name": "Corn (Maize) Common Rust",
+        "link": "https://live.staticflickr.com/4093/4885431993_1beec65393_z.jpg",
+        "description":"Common rust, caused by the fungus Puccinia sorghi, is a widespread fungal disease affecting corn (maize) plants worldwide. Symptoms include small, circular to elongated pustules on leaves, typically orange to reddish-brown in color. These pustules contain masses of rust-colored spores, which can be easily dispersed by wind, rain, or mechanical means. Severe infections can lead to premature leaf senescence, reduced photosynthetic efficiency, and yield losses. Control measures include planting resistant hybrids, crop rotation, and timely fungicide applications during susceptible growth stages."
+    },
+    {
+        
+        "id":"Corn_(maize)___Northern_Leaf_Blight",
+        "name": "Corn (Maize) Northern Leaf Blightt",
+        "link": "https://assets.syngenta.ca/images/pest/125/ca2020_northern_corn_leaf_blight_2.jpg",
+        "description":"Northern leaf blight, caused by the fungus Exserohilum turcicum, is a significant foliar disease of corn (maize) plants in regions with high humidity and moderate temperatures. Infected leaves develop cigar-shaped lesions with wavy margins, starting as small, water-soaked spots that later turn tan to brown. As the disease progresses, the lesions coalesce, leading to extensive blighting and premature death of lower leaves. Severe northern leaf blight infections can result in reduced photosynthetic capacity, stalk lodging, and yield losses. Integrated disease management approaches include planting resistant hybrids, crop rotation, tillage practices to bury infected residue, and foliar fungicide applications during susceptible growth stages."
+    },
+    {
+        "id":"Corn_(maize)___healthy",
+        "name": "Corn (maize) healthy",
+        "link": "https://www.zettafarms.com/wp-content/uploads/2024/01/blog-6.jpg",
+        "description":"Corn (maize) healthy refers to the optimal condition of maize plants, devoid of any observable signs of disease, pest infestation, or nutritional deficiencies. Healthy maize plants exhibit vibrant green foliage, sturdy stalks, and uniform growth, with well-developed ears containing plump kernels. Achieving and maintaining maize plant health involves implementing effective agronomic practices such as proper soil management, balanced fertilization, and timely irrigation. Additionally, integrated pest management (IPM) strategies help minimize the risk of pest damage and disease outbreaks. Regular monitoring and scouting for potential stressors enable early intervention to preserve plant vigor and maximize yield potential. Ensuring the health of maize plants is essential for sustainable crop production and agricultural resilience."
+    },
+    {
+        "id":"Grape Black_rot",
+        "name": "Corn (maize) healthy",
+        "link": "https://www.missouribotanicalgarden.org/Portals/0/Gardening/Gardening%20Help/images/Pests/Black_Rot_of_Grapes152.jpg",
+        "description":" Black rot, caused by the fungus Guignardia bidwellii, is a devastating disease affecting grapevines, particularly prevalent in warm and humid climates. It initiates as small, circular lesions on grape leaves, eventually expanding to encompass the entire leaf, causing defoliation. Infected berries develop characteristic black, shriveled lesions, leading to significant yield losses and deterioration of fruit quality. Management strategies for black rot include cultural practices such as pruning to increase air circulation, removal of infected plant parts, and fungicide applications during critical growth stages to prevent disease spread."
+    },
+    {
+        "id":"Grape__Esca(Black_Measles)",
+        "name": "Grape Esca (Black Measles)",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/c/cb/ESCA_Blattsymptom_1.JPG",
+        "description":"Esca, also known as Black Measles, is a complex fungal disease affecting grapevines worldwide, characterized by the presence of multiple pathogens, including Phaeomoniella chlamydospora and Phaeoacremonium spp. Symptoms include wilting leaves, black streaks in the wood, and yellow discoloration of leaves. Infected vines exhibit reduced vigor, stunted growth, and poor fruit quality. Management of Esca involves preventative measures such as pruning wounds protection, vineyard sanitation, and trunk injections with fungicides to control fungal colonization.."
+    },
+    {
+        "id":"Grape__Leaf_blight(Isariopsis_Leaf_Spot)",
+        "name": "Grape Leaf Blight (Isariopsis Leaf Spot)",
+        "link": "https://www.goodfruit.com/wp-content/uploads/Black-rot-lesions-on-leaves-indicate-potential-for-fruit-infection-1-feat2.jpg",
+        "description":"Leaf blight, caused by the fungus Isariopsis spp., is a foliar disease commonly affecting grapevines, particularly in humid environments. Initial symptoms include small, brown lesions on grape leaves, which rapidly enlarge and coalesce, leading to extensive defoliation. Severe infections weaken the vines, reducing their ability to produce and ripen fruit effectively. Control measures for grape leaf blight include cultural practices such as proper spacing to improve air circulation, removal of infected plant debris, and application of fungicides during the growing season." 
+    },
+    {
+        "id":"Orange__Haunglongbing(Citrus_greening)",
+        "name": "Orange Haunglongbing(Citrus greening)",
+        "link": "https://apps.lucidcentral.org/pppw_v12/images/entities/citrus_huanglongbing_greening_230/ucipm_greening.jpg",
+        "description":"Huanglongbing (HLB), also known as citrus greening disease, is a devastating bacterial infection affecting citrus trees, including oranges, worldwide. It is transmitted by the Asian citrus psyllid and is caused by the bacterium Candidatus Liberibacter asiaticus. Symptoms include yellowing of leaves, premature fruit drop, and bitter, misshapen fruit. HLB ultimately leads to the decline and death of infected trees, resulting in significant economic losses for citrus growers. Management strategies for HLB focus on early detection, removal of infected trees, insect vector control, and research into resistant citrus varieties through breeding programs and genetic engineering techniques." 
+    },
+    {
+        "id":"Grape___healthy",
+        "name": "Grape healthy",
+        "link": "https://media.post.rvohealth.io/wp-content/uploads/2022/01/grapes-732x549-thumbnail.jpg",
+        "description":"Grape Healthy, grapevines exhibit vigorous growth, with lush foliage and strong, well-formed clusters of fruit. Leaves are a vibrant green color, free from any signs of discoloration, spots, or deformities. Healthy grapevines are resilient to environmental stressors and disease pressures, resulting in optimal yield and fruit quality. Maintaining grapevine health requires implementing a holistic approach, including proper vineyard management practices, irrigation scheduling, pest and disease monitoring, and timely interventions to address any emerging issues."
+    },
+    {
+        "id":"Peach___Bacterial_spot",
+        "name": "Peach Bacterial spot",
+        "link": "https://onfruit.ca/wp-content/uploads/2020/06/shothole-bacterial-spot.jpg",
+        "description":"Bacterial spot, caused by Xanthomonas arboricola pv. pruni, is a pervasive disease affecting peach trees, particularly in warm and humid climates. It commonly manifests as small, dark lesions on leaves, which may initially appear water-soaked and later develop into necrotic spots surrounded by a yellow halo. Infected fruit can also exhibit lesions, leading to reduced marketability and fruit quality. Severe infections can result in defoliation, weakening the tree and diminishing fruit production over time. Effective management of peach bacterial spot involves a combination of cultural practices such as pruning to improve airflow, regular sanitation to remove infected plant debris, and targeted fungicide applications during critical growth stages."
+    },
+    {
+        "id":"Peach___healthy",
+        "name": "Peach healthy",
+        "link": "https://www.tasteofhome.com/wp-content/uploads/2019/06/peaches-shutterstock_297863489-1.jpg",
+        "description":"Peach Healthy, peach trees exhibit robust growth with luxuriant foliage and sturdy branches. Leaves are a vibrant green color and free from any signs of discoloration, spots, or deformities, indicating optimal plant health. Healthy peach trees produce an abundance of high-quality fruit, demonstrating uniform size, color, and texture. Achieving and maintaining peach tree health requires diligent orchard management practices, including proper irrigation, fertilization, pruning, and pest control measures tailored to the specific requirements of peach cultivars and local environmental conditions."
+    },
+    {
+        "id":"Pepper,bell__Bacterial_spot",
+        "name": "Pepper bell Bacterial spot",
+        "link": "https://extension.wvu.edu/files/50d2bf3d-125f-4b45-9c03-487959bd8344/893x595?cb=0862b40bec913b574f1f05f79f2805c7",
+        "description":"Bacterial spot, caused by Xanthomonas spp., is a widespread disease affecting bell pepper plants, particularly in regions with warm and humid climates. Symptoms include dark, water-soaked lesions on leaves, which may coalesce and develop into necrotic spots with a yellow halo. Infected fruit can also display lesions, leading to reduced marketability and yield. Bacterial spot weakens the plant over time, making it more susceptible to other diseases and environmental stresses. Effective management of bell pepper bacterial spot involves implementing cultural practices such as crop rotation, maintaining proper plant spacing, and applying copper-based fungicides preventively."
+    },
+    {
+        "id":"Pepper,bell__healthy",
+        "name": "Pepper bell healthy",
+        "link": "https://www.naturefresh.ca/wp-content/uploads/AdobeStock_81295974-min.jpeg",
+        "description":"Pepper Bell Healthy, bell pepper plants exhibit vigorous growth, with lush foliage and sturdy stems supporting an abundance of fruit. Leaves are a deep green color and free from any signs of disease, pest damage, or nutrient deficiencies, indicating optimal plant health. Healthy bell pepper plants produce fruit with uniform size, shape, and coloration, reflecting optimal physiological functioning and nutrient uptake. Achieving and maintaining bell pepper plant health involves careful attention to cultural practices such as irrigation management, balanced fertilization, and regular scouting for pests and diseases."
+    },
+    {
+        "id":"Potato___Early_blight",
+        "name": "Potato Early Blight",
+        "link": "https://www.planetnatural.com/wp-content/uploads/2012/12/potato-blight.jpg",
+        "description":"Early blight, caused by Alternaria solani, is a prevalent foliar disease affecting potato plants worldwide, particularly in regions with warm and humid conditions. Symptoms include small, dark lesions on lower leaves, which gradually expand and develop concentric rings, leading to leaf yellowing and premature defoliation. Severe infections can result in reduced yield and tuber quality, impacting crop profitability. Effective management strategies for early blight include crop rotation, timely removal of infected plant debris, application of fungicides, and selection of resistant potato varieties. Additionally, cultural practices such as balanced fertilization and proper irrigation scheduling help minimize disease incidence and severity."
+    },
+    {
+        "id":"Potato___Late_blight",
+        "name": "Potato Late Blight",
+        "link": "https://potatoes.news/wp-content/uploads/2021/01/Halo-2-3-1080x675-1.jpg",
+        "description":"Late blight, caused by the oomycete pathogen Phytophthora infestans, is a devastating disease affecting potato plants worldwide. It famously triggered the Irish Potato Famine in the 1840s and continues to be a significant threat to potato cultivation. Symptoms include water-soaked lesions on leaves that rapidly expand into dark, necrotic areas with a fuzzy texture. Infected foliage can quickly turn brown and die, leading to defoliation and eventual tuber rot. Late blight thrives in cool, moist conditions and can spread rapidly during periods of high humidity. Management strategies include cultural practices such as crop rotation, timely fungicide applications, and the use of resistant potato varieties. Early detection and proactive management are crucial to minimizing yield losses and preventing disease spread."
+    },
+    {
+        "id":"Potato___healthy",
+        "name": "Potato healthy",
+        "link": "https://c.ndtvimg.com/2023-08/28q4amn_potatoes_625x300_10_August_23.jpg",
+        "description":"In the category of Potato Healthy,potato plants exhibit vigorous growth with lush green foliage and robust stems. Leaves are free from any signs of disease, pest damage, or nutrient deficiencies, indicating optimal plant health. Healthy potato plants produce a profusion of tubers with uniform size, shape, and skin texture, reflecting optimal physiological functioning and nutrient uptake. Achieving and maintaining potato plant health requires careful attention to cultural practices such as soil management, irrigation scheduling, and pest and disease monitoring. Implementing integrated pest management (IPM) strategies and selecting disease-resistant potato varieties can further enhance plant health and productivity"
+    },
+    {
+        "id":"Raspberry___healthy",
+        "name": "Raspberry healthy",
+        "link": "https://www.health.com/thmb/c9SiQ4kGeLEhohIRut_EGgiCkaM=/5315x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1246996912-448fdbe60187474d8eb8435bf60f3524.jpg",
+        "description":"Raspberry Healthy, raspberry plants exhibit vigorous growth, with lush green foliage and sturdy, upright canes. Leaves are free from any signs of disease, pest damage, or nutrient deficiencies, indicating optimal plant health. Healthy raspberry plants produce abundant fruit of high quality, with uniform size, color, and flavor. Achieving and maintaining raspberry plant health requires diligent orchard management practices, including proper irrigation, fertilization, pruning, and pest control measures tailored to the specific requirements of raspberry cultivars and local environmental conditions. Regular monitoring for pests and diseases allows for early detection and intervention to preserve plant vigor and maximize yield potential."
+    },
+    {
+        "id":"Soybean___healthy",
+        "name": "Soybean healthy",
+        "link": "https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320472/soybeans-on-a-wooden-spoon.jpg",
+        "description":"Soybean Healthy,soybean plants exhibit vigorous growth, with dense foliage and strong, upright stems. Leaves are a vibrant green color and free from any signs of disease, pest damage, or nutrient deficiencies, indicating optimal plant health. Healthy soybean plants produce abundant pods filled with plump, healthy seeds, reflecting optimal physiological functioning and nutrient uptake. Achieving and maintaining soybean plant health requires proper agronomic practices, including soil management, weed control, and pest monitoring. Implementing integrated pest management (IPM) strategies and selecting disease-resistant soybean varieties can further enhance plant health and maximize yield potential."
+    },
+    {
+        "id":"Squash___Powdery_mildew",
+        "name": "Squash Powdery mildew",
+        "link": "https://i0.wp.com/savvygardening.com/wp-content/uploads/2021/09/how_to_get_rid_of_powdery_mildew_on_squash.jpg?resize=600%2C450&ssl=1",
+        "description":"Powdery mildew, caused by various fungal species, is a common disease affecting squash plants, including zucchini, pumpkin, and butternut squash. Symptoms include white, powdery patches on leaves, stems, and fruit surfaces, often accompanied by leaf distortion and premature defoliation. Severe infections can weaken the plant, reducing photosynthetic efficiency and yield. Powdery mildew thrives in warm, dry conditions with high humidity, making squash crops particularly susceptible during periods of rapid growth. Management strategies for squash powdery mildew include cultural practices such as proper spacing to improve air circulation, removal of infected plant debris, and application of fungicides targeted at susceptible growth stages. Selecting resistant squash varieties and implementing preventative measures can help minimize disease incidence and severity."
+    },
+    {
+        "id":"Strawberry___Leaf_scorch",
+        "name": "Strawberry Leaf_scorch",
+        "link": "https://www.omafra.gov.on.ca/ipm/images/strawberries/diseases/leaf-scorch/strawberry_leaf_scorch1_01_zoom.jpg",
+        "description":"Leaf scorch, a fungal disease commonly affecting strawberry plants, is caused by various pathogens such as Diplocarpon earlianum and Diplocarpon fragariae. Symptoms include browning and necrosis of leaf margins, often progressing inward, leading to a scorched appearance. Severe infections can cause defoliation, weakening the plant and reducing fruit production. Leaf scorch thrives in warm, humid conditions, spreading rapidly during periods of wet weather. Management strategies for strawberry leaf scorch include cultural practices such as proper spacing to improve air circulation, removal of infected plant debris, and application of fungicides during critical growth stages."
+    },
+    {
+        "id":"Strawberry___healthy",
+        "name": "Strawberry healthy",
+        "link": "https://images.everydayhealth.com/images/diet-nutrition/potential-health-benefits-of-strawberries-1440x810.jpg",
+        "description":"Strawberry Healthy,strawberry plants exhibit vigorous growth, with dense foliage and strong, healthy crowns. Leaves are a vibrant green color and free from any signs of disease, pest damage, or nutrient deficiencies, indicating optimal plant health. Healthy strawberry plants produce abundant fruit of high quality, with uniform size, color, and flavor. Achieving and maintaining strawberry plant health requires careful attention to cultural practices such as irrigation management, weed control, and pest monitoring. Implementing integrated pest management (IPM) strategies and selecting disease-resistant strawberry varieties can further enhance plant health and maximize yield potential."
+    },
+    {
+        "id":"Tomato___Bacterial_spot'",
+        "name": "Tomato Bacterial_spot'",
+        "link": "https://www.growingproduce.com/wp-content/uploads/2019/08/bacterial_spot_tomato.jpg",
+        "description":"Bacterial spot, caused by Xanthomonas spp., is a common and destructive disease affecting tomato plants worldwide. Symptoms include small, water-soaked lesions on leaves, which gradually enlarge and develop into necrotic spots with a yellow halo. Infected fruit can also display lesions, leading to reduced marketability and yield. Bacterial spot weakens the plant over time, making it more susceptible to other diseases and environmental stresses. Effective management of tomato bacterial spot involves implementing cultural practices such as crop rotation, maintaining proper plant spacing, and applying copper-based fungicides preventively." 
+    },
+    {
+        "id":"Tomato___Early_blight",
+        "name": "Tomato Early blight",
+        "link": "https://content.ces.ncsu.edu/media/images/IMG_1301.JPG",
+        "description":"Early blight, caused by the fungus Alternaria solani, is a prevalent foliar disease affecting tomato plants. Symptoms include small, dark lesions on lower leaves, which gradually expand and develop concentric rings, leading to leaf yellowing and premature defoliation. Severe infections can result in reduced yield and fruit quality, impacting crop profitability. Effective management strategies for early blight include crop rotation, timely removal of infected plant debris, application of fungicides, and selection of resistant tomato varieties. Additionally, cultural practices such as balanced fertilization and proper irrigation scheduling help minimize disease incidence and severity." 
+    },
+    {
+        "id":"Tomato___Late_blight",
+        "name": "Tomato Late blight",
+        "link": "https://extension.umn.edu/sites/extension.umn.edu/files/late-blight-plant-tomato.jpg",
+        "description":"Late blight, caused by the oomycete pathogen Phytophthora infestans, is a devastating disease affecting tomato plants worldwide. Symptoms include water-soaked lesions on leaves that rapidly expand into dark, necrotic areas with a fuzzy texture. Infected foliage can quickly turn brown and die, leading to defoliation and eventual fruit rot. Late blight thrives in cool, moist conditions and can spread rapidly during periods of high humidity. Management strategies include cultural practices such as crop rotation, timely fungicide applications, and the use of resistant tomato varieties. Early detection and proactive management are crucial to minimizing yield losses and preventing disease spread." 
+    },
+    {
+        "id":"Tomato___Leaf_Mold",
+        "name": "Tomato Leaf Mold",
+        "link": "https://extension.umn.edu/sites/extension.umn.edu/files/tomato-leaf-mold.jpg",
+        "description":"Leaf mold, caused by the fungus Fulvia fulva (formerly known as Cladosporium fulvum), is a common fungal disease affecting tomato plants. Symptoms include yellowing and browning of leaves, often starting from the lower foliage and progressing upwards. Affected leaves develop fuzzy, grayish patches on the undersides, distinguishing it from other tomato diseases. Leaf mold thrives in warm, humid conditions, spreading rapidly in greenhouses and high tunnels. Management strategies for tomato leaf mold include maintaining proper air circulation, reducing humidity levels, and applying fungicides preventively, especially during periods of favorable conditions for disease development." 
+    },
+    {
+        "id":"Tomato___Septoria_leaf_spot",
+        "name": "Tomato Septoria leaf spot",
+        "link": "https://www.thespruce.com/thmb/-toF8nYmMPUZJbOL8ZYDnLWJRio=/5300x0/filters:no_upscale():max_bytes(150000):strip_icc()/identifying-and-controlling-septoria-leaf-spot-of-tomato-1402974-02-b556ef33db30454dbc021c3e7cea89b5.jpg",
+        "description":"Septoria leaf spot, caused by the fungus Septoria lycopersici, is a widespread fungal disease affecting tomato plants. Symptoms include small, circular lesions with dark margins on the lower leaves, which gradually enlarge and coalesce, leading to extensive defoliation. Severe infections can weaken the plant and reduce fruit quality and yield. Septoria leaf spot thrives in warm, humid conditions and can spread rapidly during periods of prolonged leaf wetness. Management strategies for tomato septoria leaf spot include cultural practices such as crop rotation, mulching, and pruning to improve air circulation, along with fungicide applications targeted at susceptible growth stages."
+    },
+    {
+        "id":"Tomato___Spider_mites Two-spotted_spider_mite",
+        "name": "Tomato Spider Mites (Two-Spotted Spider Mite)",
+        "link": "https://media.sciencephoto.com/c0/37/31/70/c0373170-800px-wm.jpg",
+        "description":"Spider mites, particularly the two-spotted spider mite (Tetranychus urticae), are common pests affecting tomato plants. These tiny arachnids feed on plant sap, causing stippling and discoloration of leaves, which can lead to reduced photosynthetic capacity and stunted growth. Severe infestations can cause defoliation and yield losses. Spider mites thrive in hot, dry conditions and reproduce rapidly, making them challenging to control. Management strategies for tomato spider mites include cultural practices such as maintaining proper plant hygiene, using biological control agents like predatory mites, and applying insecticidal soaps or oils to suppress populations."   
+    },
+    {
+        "id":"Tomato___Target_Spot",
+        "name": "Tomato Target Spot",
+        "link": "https://apps.lucidcentral.org/pppw_v10/images/entities/tomato_target_spot_163/img_4795.jpg",
+        "description":"Target spot, caused by the fungus Corynespora cassiicola, is a fungal disease affecting tomato plants, particularly in warm and humid climates. Symptoms include circular lesions with concentric rings on leaves, which can vary in size and coloration. Severely affected leaves may yellow and drop prematurely, leading to defoliation and reduced fruit yield. Target spot thrives in environments with high humidity and can spread rapidly during periods of warm, wet weather. Management strategies for tomato target spot include cultural practices such as pruning for airflow, sanitation to remove infected plant debris, and fungicide applications targeted at susceptible growth stages."   
+    },
+    {
+        "id":"Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "name": "Tomato Yellow Leaf Curl Virus",
+        "link": "https://www.greenlife.co.ke/wp-content/uploads/2022/04/Tomato-Leaf-Curl.jpg",
+        "description":"Tomato Yellow Leaf Curl Virus (TYLCV) is one of the most devastating viral diseases affecting tomato plants worldwide. It is transmitted by the silverleaf whitefly (Bemisia tabaci) and belongs to the genus Begomovirus. Symptoms of TYLCV include yellowing and upward curling of leaves, stunted growth, and reduced fruit yield. Infected plants may exhibit leaf mottling, vein yellowing, and overall decline in vigor. TYLCV is particularly problematic in warm and tropical regions where whitefly populations thrive. Management strategies for TYLCV include planting resistant tomato varieties, controlling whitefly populations through cultural practices and insecticides, and implementing strict sanitation measures to prevent virus spread." 
+    },
+    {
+        "id":"Tomato___Tomato_mosaic_virus",
+        "name": "Tomato Mosaic Virus",
+        "link": "https://www.creative-diagnostics.com/blog/wp-content/uploads/2017/01/tobacco-mosaic-virus.jpg",
+        "description":"Tomato Mosaic Virus (ToMV) is a widespread viral disease affecting tomato plants, belonging to the Tobamovirus genus. It is primarily transmitted through mechanical means, such as contaminated tools, hands, and plant debris. Symptoms of ToMV include mosaic patterns, leaf distortion, stunted growth, and reduced fruit yield. Infected plants may exhibit light and dark green mottling on leaves, giving them a mosaic appearance. ToMV can survive for extended periods in plant debris and soil, making it difficult to manage. Management strategies for ToMV include planting certified virus-free seedlings, practicing strict sanitation measures, and roguing infected plants to prevent further spread." 
+    },
+    {
+        "id":"Tomato___healthy",
+        "name": "Tomato healthy",
+        "link": "https://www.dogtownpizza.com/wp-content/uploads/2022/06/fresh-ripe-tomatoes-on-the-vine-growing-on-tomato-plants-in-a-picture-id1308407651.jpg",
+        "description":"Tomato Healthy,tomato plants exhibit vigorous growth, with lush foliage and sturdy stems supporting an abundance of fruit. Leaves are a deep green color and free from any signs of disease, pest damage, or physiological disorders, indicating optimal plant health. Healthy tomato plants produce fruit with uniform size, shape, and color, demonstrating optimal physiological functioning and nutrient uptake. Achieving and maintaining tomato plant health requires careful attention to cultural practices such as proper irrigation, fertilization, and pest monitoring. Implementing integrated pest management (IPM) strategies and selecting disease-resistant tomato varieties can further enhance plant health and maximize yield potential."   
+    }
+
+
+]
