@@ -9,28 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Plantex</title>
     <style>
-        .right-image {
-            float: right;
-            margin-left: 20px;
-        }
-
-        .right-image-container {
-            position: relative;
-            float: right;
-            margin-left: 20px;
-            top: -10px;
-            /* Adjust this value to move the image up */
-        }
-        /* <style> */
-    .container {
-        position: relative;
-        width: 300px; /* Adjust width as needed */
-    }
-    .image {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
+       
+   
     .text {
         position: absolute;
         bottom: 0;
@@ -187,32 +167,34 @@
                     </h2>
 
                     <div class="steps__container grid">
-                        <div class="steps__card1">
+                        <div class="steps__card steps__card1">
+                            <div class="overlay">
+                                <div class="text">Collect your Organic Waste☘️<br>It can be vegetable peels, leftovers, stems, leaves etc🗑️</div>
+                            </div>
                             <div class="steps__card-number">01</div>
-                            <h3 class="steps__card-title">Collect your Organic Waste</h3>
-                            <p class="steps__card-description">
-                                It can be vegetable peels,leftovers,stems,leaves etc.
-                            </p>
-
+                            
                         </div>
-
-                        <div class="steps__card2">
-                            <div class="steps__card-number">02</div>
-                            <h3 class="steps__card-title">Visit out Vermicompost branch near you</h3>
-                            <img src="Frontend\img\address.png" alt="">
-                            <p class="steps__card-description">
-                                Bring your organic matter at the store.
-                            </p>
+                    
+                        <div class="steps__card steps__card2">
+                            <a href="https://www.google.com/maps/search/vermicompost+near+me/@19.0427825,72.8978114,11z/data=!3m1!4b1?entry=ttu" target="_blank">
+                                <div class="overlay">
+                                    <br><br><br><br><br>
+                                    <div class="text">📍click to view our stores<br>Bring your organic matter at the vermi store🏪</div>
+                                </div>
+                                <div class="steps__card-number">02</div>
+                            </a>
                         </div>
-
-                        <div class="steps__card3">
+                        
+                    
+                        <div class="steps__card steps__card3">
+                            <div class="overlay">
+                                <div class="text">Collect the Vermicompost equivalent to your waste🌱<br>Keep collecting and recycling♻️</div>
+                            </div>
                             <div class="steps__card-number">03</div>
-                            <h3 class="steps__card-title">Collect the Vermicompost equivalent to your waste</h3>
-                            <p class="steps__card-description">
-                                Keep collecting and recycling 
-                            </p>
+                            
                         </div>
                     </div>
+                    
                 </div>
             </section>
 
@@ -422,7 +404,6 @@
                         <h2 class="section__title">
                             Reach out to us today <br> via any of the given <br> information
                         </h2>
-
                         <div class="contact__data">
                             <div class="contact__information">
                                 <h3 class="contact__subtitle">Call us for instant support</h3>
@@ -431,7 +412,6 @@
                                     +987653210
                                 </span>
                             </div>
-
                             <div class="contact__information">
                                 <h3 class="contact__subtitle">Write us by mail</h3>
                                 <span class="contact__description">
@@ -441,32 +421,56 @@
                             </div>
                         </div>
                     </div>
-
-                    <form action="" class="contact__form">
+            
+                    <form action="" class="contact__form" id="contactForm">
                         <div class="contact__inputs">
                             <div class="contact__content">
-                                <input type="email" placeholder=" " class="contact__input">
-                                <label for="" class="contact__label">Email</label>
+                                <input type="email" placeholder=" " class="contact__input" id="email" required>
+                                <label for="email" class="contact__label">Email</label>
                             </div>
-
+            
                             <div class="contact__content">
-                                <input type="text" placeholder=" " class="contact__input">
-                                <label for="" class="contact__label">Subject</label>
+                                <input type="text" placeholder=" " class="contact__input" id="subject" required>
+                                <label for="subject" class="contact__label">Subject</label>
                             </div>
-
+            
                             <div class="contact__content contact__area">
-                                <textarea name="message" placeholder=" " class="contact__input"></textarea>
-                                <label for="" class="contact__label">Message</label>
+                                <textarea name="message" placeholder=" " class="contact__input" id="message" required></textarea>
+                                <label for="message" class="contact__label">Message</label>
                             </div>
                         </div>
-
-                        <button class="button button--flex">
+                        <button type="submit" class="button button--flex">
                             Send Message
                             <i class="ri-arrow-right-up-line button__icon"></i>
                         </button>
                     </form>
                 </div>
             </section>
+            
+            <script>
+                // JavaScript for form submission and validation
+                document.getElementById('contactForm').addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevent the default form submission
+            
+                    // Fetch form inputs
+                    var email = document.getElementById('email').value.trim();
+                    var subject = document.getElementById('subject').value.trim();
+                    var message = document.getElementById('message').value.trim();
+            
+                    // Check if any field is empty
+                    if (email === '' || subject === '' || message === '') {
+                        alert('Please fill in all fields.');
+                        return; // Stop further execution
+                    }
+            
+                    // If all fields are filled, show success message
+                    alert('Message sent successfully!');
+                    
+                    // Reset the form
+                    document.getElementById('contactForm').reset();
+                });
+            </script>
+            
     </main>
 
     <!--==================== FOOTER ====================-->
@@ -492,13 +496,12 @@
             </div>
 
             <div class="footer__content">
-                <h3 class="footer__title">Our Address</h3>
+                <h3 class="footer__title">Our Vermicompost Stores</h3>
+                
+    <!-- Embedded Google Maps -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906410.1213564673!2d71.5313197685773!3d21.054391353207684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c138e5cb1579%3A0x6339ec96e327c9a!2sPlantex%20Agro%20Industries%20Private%20Limited!5e0!3m2!1sen!2sin!4v1712033679334!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
 
-                <ul class="footer__data">
-                    <li class="footer__information">D-502, Rizvi Nagar, Milan Subway & SV Road,</li>
-                    <li class="footer__information">Santa Cruz (W), Mumbai,</li>
-                    <li class="footer__information">Maharashtra 400054, India</li>
-                </ul>
+                
             </div>
 
             <div class="footer__content">
@@ -521,17 +524,7 @@
                 </ul>
             </div>
 
-            <div class="footer__content">
-                <h3 class="footer__title">
-                    We accept all credit cards
-                </h3>
-
-                <div class="footer__cards">
-                    <img src="img/card1.png" alt="" class="footer__card">
-                    <img src="img/card2.png" alt="" class="footer__card">
-                    <img src="img/card3.png" alt="" class="footer__card">
-                    <img src="img/card4.png" alt="" class="footer__card">
-                </div>
+           
             </div>
         </div>
 
