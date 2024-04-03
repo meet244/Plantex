@@ -1,5 +1,6 @@
 
 # Plantex - Plant disease detection & organic waste management 🌿🔍
+Visit the website 👉 [plantex-earth.netlify.app](https://plantex-earth.netlify.app/)
 
 ## Problem Statement 🎯
 > Smart City and Defense Hackathon Project
