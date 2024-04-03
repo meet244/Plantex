@@ -18,6 +18,7 @@ We used the [Plant Village dataset](https://www.kaggle.com/datasets/emmarex/plan
 - **Product Recommendations**: We recommend products to cure the detected diseases and offer them for sale.
 - **Waste Management**: We operate an offline store where users can exchange wet waste for organic manure.
 -  **AI Chatbot**: Implemented with prompt engineering on Gemini, the chatbot helps users navigate, search, and ask for information easily.
+- **Flutter App**: We made a simple app in Flutter to provide easy access to the website, as the app is more accessible compared to conventional websites.
 
 ### Offline Store 🔄
 - Users can exchange 1 kg of wet waste for 1 kg of organic manure.
