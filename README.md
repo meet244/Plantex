@@ -29,8 +29,11 @@ We used the [Plant Village dataset](https://www.kaggle.com/datasets/emmarex/plan
   
 - Mobile App
 
+![XRecorder_03042024_223134-ezgif com-optimize (1)](https://github.com/meet244/Plantex/assets/83262693/4e3ff404-a670-4883-bc7b-b4211e378546)
+
 
 - Website
+
 ![screenshot (4)](https://github.com/meet244/Plantex/assets/83262693/6eab01eb-6f9b-4174-9f83-564409e216c0)
 ![screenshot (6)](https://github.com/meet244/Plantex/assets/83262693/8645cf87-2cde-4470-881e-80e52c816d0e)
 ![screenshot (7)](https://github.com/meet244/Plantex/assets/83262693/8bf6c91f-a116-4119-bec4-32f6b9287a58)
