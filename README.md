@@ -40,7 +40,7 @@ We used the [Plant Village dataset](https://www.kaggle.com/datasets/emmarex/plan
 
 ### About Project 🤔
 
-This project was developed as part of a hackathon by our smartworking team. You can find more information about the hackathon and our project [here]().
+This project was developed as part of a hackathon by our smartworking team. You can find more information about the hackathon and our project [here](https://www.linkedin.com/posts/meet244_hackathon-plantdisease-plant-activity-7181509765536104448-E_48?utm_source=share&utm_medium=member_desktop).
 
 ## Contributors 🤝
 
