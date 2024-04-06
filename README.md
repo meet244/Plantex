@@ -1,5 +1,7 @@
 
 # Plantex - Plant disease detection & organic waste management 🌿🔍
+[![Web Demo](https://img.shields.io/badge/🤗-HuggingFace%20Space-cyan.svg)](https://huggingface.co/spaces/meet244/Plantex)
+
 Visit the website 👉 [plantex-earth.netlify.app](https://plantex-earth.netlify.app/)
 
 ## Problem Statement 🎯
